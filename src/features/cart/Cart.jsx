@@ -18,6 +18,7 @@ function Cart() {
     navigate('/menu');
   };
 
+  // if no items in cart return empty component
   if (!cart.length) {
     return <EmptyCart />;
   }
